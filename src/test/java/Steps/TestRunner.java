@@ -7,7 +7,7 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(features="src/test/resources/Features", glue = {"Steps"}, 
 
 tags = "@LoginTest",
-plugin = {"pretty", "html:target/HtmlReports/reports.html", "json:target/JSONReports/reports.json",})
+plugin = {"pretty", "html:target/HtmlReports/reports.html", "json:target/JSONReports/reports.json"})
 //"junit:target/JUNITReports/junitreports.xml", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
 	//monochrome = true, was added in line 8	
 //tags="@smoketest" : this will run only that feature file which has this tag) 
